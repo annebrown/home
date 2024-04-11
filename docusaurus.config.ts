@@ -88,10 +88,6 @@ const config: Config = {
               label: 'Introduction',
               to: '/docs/intro',
             },
-            {
-              label: 'Ref',
-              to: '/ref'
-            }
           ],
         },
         {
