@@ -90,7 +90,7 @@ const config: Config = {
             },
             {
               label: 'Ref',
-              to: '/ref/intro'
+              to: '/ref'
             }
           ],
         },
