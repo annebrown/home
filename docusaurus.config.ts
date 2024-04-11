@@ -59,7 +59,6 @@ const config: Config = {
           position: 'left',
           label: 'Introduction',
         },
-        {to: '/ref', label: 'Ref', position: 'left'},
         {
           href: 'https://github.com/annebrown/docs',
           label: 'GitHub',
