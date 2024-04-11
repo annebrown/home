@@ -60,6 +60,18 @@ const config: Config = {
           label: 'Introduction',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'introSidebar',
+          position: 'left',
+          label: 'Ref',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'introSidebar',
+          position: 'left',
+          label: 'Digital Media',
+        },
+        {
           href: 'https://github.com/annebrown/docs',
           label: 'GitHub',
           position: 'right',
@@ -76,6 +88,10 @@ const config: Config = {
               label: 'Introduction',
               to: '/docs/intro',
             },
+            {
+              label: 'Ref',
+              to: '/ref/intro'
+            }
           ],
         },
         {
