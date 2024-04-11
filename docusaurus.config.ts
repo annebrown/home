@@ -97,11 +97,8 @@ const config: Config = {
         },
         {
           title: 'More',
-          items: [
-            {
-              label: 'REf',
-              to: '/ref',
-            },
+          items: 
+          [
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
