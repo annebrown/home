@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.browndomain.com',
+  url: 'https://home.browndomain.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'annebrown', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'home', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -72,7 +72,7 @@ const config: Config = {
           label: 'Digital Media',
         },
         {
-          href: 'https://github.com/annebrown/docs',
+          href: 'https://github.com/annebrown/home',
           label: 'GitHub',
           position: 'right',
         },
@@ -82,11 +82,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'home',
           items: [
             {
-              label: 'Introduction',
-              to: '/docs/intro',
+              label: 'Docs',
+              to: '/home/intro',
             },
           ],
         },

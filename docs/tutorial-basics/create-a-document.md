@@ -14,7 +14,7 @@ Documents are **groups of pages** connected through:
 
 Create a Markdown file at `docs/hello.md`:
 
-```md title="docs/hello.md"
+```md title="home/hello.md"
 # Hello
 
 This is my **first Docusaurus document**!
