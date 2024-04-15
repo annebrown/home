@@ -49,21 +49,20 @@ const config: Config = {
     navbar: {
       title: 'browndomain.com',
       logo: {
-        height: '250',
-        alt: 'My Site Logo',
-        src: 'img/favicon.png',
+        alt: 'browndomain.com Logo',
+        src: 'img/favicon-bd.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'introSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Home',
         },
         {
           type: 'docSidebar',
           sidebarId: 'introSidebar',
-          position: 'left',
+          position: 'right',
           label: 'Ref',
         },
         // {
