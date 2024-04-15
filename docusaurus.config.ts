@@ -66,12 +66,12 @@ const config: Config = {
           position: 'left',
           label: 'Ref',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'introSidebar',
-          position: 'left',
-          label: 'Digital Media',
-        },
+        // {
+        //   type: 'docSidebar',
+         //  sidebarId: 'introSidebar',
+        //   position: 'left',
+        //   label: 'Digital Media',
+        // },
         {
           href: 'https://github.com/annebrown/home',
           label: 'GitHub',
@@ -87,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'Digital Media',
-              to: '/home/digital-media/index.md',
+              to: '/docs/intro',
             },
           ],
         },
