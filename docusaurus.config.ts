@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Documents',
-  tagline: 'Docs for browndomain.com',
+  title: 'Browndomain.com',
+  tagline: 'Dev collab',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -49,15 +49,16 @@ const config: Config = {
     navbar: {
       title: 'browndomain.com',
       logo: {
+        height: '250',
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'introSidebar',
           position: 'left',
-          label: 'Introduction',
+          label: 'Home',
         },
         {
           type: 'docSidebar',
@@ -85,8 +86,8 @@ const config: Config = {
           title: 'home',
           items: [
             {
-              label: 'Docs',
-              to: '/home/intro',
+              label: 'Digital Media',
+              to: '/home/digital-media/index.md',
             },
           ],
         },
@@ -95,15 +96,15 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/annebrown',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/annebrown',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/annebrowndomain',
             },
           ],
         },
@@ -113,12 +114,12 @@ const config: Config = {
           [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/annebrown/home.git',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Browndomain.com`,
     },
     prism: {
       theme: prismThemes.github,
