@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/digital-media00.svg').default,
     description: (
       <>
-        Shared digital media, including images, templates, scripts, code snippets, logos, ...
+        Shared digital media, including images, templates, scripts, code snippets, logos, ... 
       </>
     ),
   },
@@ -23,16 +23,17 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/text-books.svg').default,
     description: (
       <>
-        All purpose, static data
+        Reference docs
       </>
     ),
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/imgreact.png').default,
+    Svg: require('@site/static/img/text-books.svg').default,
     description: (
       <>
-        Docusaurus web app, powered by React
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
