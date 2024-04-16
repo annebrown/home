@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Browndomain.com',
   tagline: 'Dev collab',
-  favicon: 'img/favicon-bd.png',
+  favicon: 'img/favicon-bd.ico',
 
   // Set the production url of your site here
   url: 'https://home.browndomain.com',
