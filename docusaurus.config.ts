@@ -50,7 +50,7 @@ const config: Config = {
       title: 'browndomain.com',
       logo: {
         alt: 'browndomain.com Logo',
-        src: 'img/favicon-bd.png',
+        src: 'img/bdcom-logo.svg',
       },
       items: [
         {
