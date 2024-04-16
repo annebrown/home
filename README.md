@@ -1,7 +1,7 @@
 # Documents 
 Docs for browndomain.com
 
-Automatically build and deploy to Vercel, after push.
+Automatic build and deploy to Vercel, after push.
 
 
 
