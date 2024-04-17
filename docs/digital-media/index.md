@@ -1,4 +1,5 @@
-# Simple Markdown Placeholder
+#  Digital Media
 
-Ref content and links go here.
+Shared digital media, including images, templates, scripts, code snippets, logos, ...
 
+links here

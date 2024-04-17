@@ -6,12 +6,14 @@ type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  thingy: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Digital Media',
-    Svg: require('@site/static/img/digital-media00.svg').default,
+    Svg: require('@site/static/img/digital-media.svg').default,
+    thingy: '/docs/category/digital-media',
     description: (
       <>
         Shared digital media, including images, templates, scripts, code snippets, logos, ... 
@@ -21,6 +23,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Ref',
     Svg: require('@site/static/img/text-books.svg').default,
+    thingy: '/docs/category/ref',
     description: (
       <>
         Reference docs
@@ -28,27 +31,27 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/text-books.svg').default,
+    title: 'annebrown.ca',
+    Svg: require('@site/static/img/logo-ab.svg').default,
+    thingy: 'https://www.annebrown.ca',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Personal dev 
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, thingy}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+     <a href={thingy}> <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+        <Heading as="h3" style={{color: '#ffffff'}}>{title}</Heading>
+        <p style={{color: '#ffffff'}}>{description}</p>
+      </div></a>
     </div>
   );
 }
