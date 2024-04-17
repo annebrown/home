@@ -49,8 +49,8 @@ function Feature({title, Svg, description, thingy}: FeatureItem) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3" style={{color: '#ffffff'}}>{title}</Heading>
-        <p style={{color: '#ffffff'}}>{description}</p>
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
       </div></a>
     </div>
   );
