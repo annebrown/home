@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Cheatsheets',
     Svg: require('@site/static/img/logo-ab.svg').default,
-    thingy: 'https://cheatsheets.w3spaces.com',
+    thingy: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg',
     description: (
       <>
       Personal dev 
