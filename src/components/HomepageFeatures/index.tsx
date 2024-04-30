@@ -31,9 +31,9 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'annebrown.ca',
+    title: 'Cheatsheets',
     Svg: require('@site/static/img/logo-ab.svg').default,
-    thingy: 'https://www.annebrown.ca',
+    thingy: 'https://cheatsheets.w3spaces.com',
     description: (
       <>
       Personal dev 
