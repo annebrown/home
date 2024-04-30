@@ -37,7 +37,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://cheatsheets.w3spaces.com/',
     description: (
       <>
-      Personal dev 
+      My Cheatsheets on W3S
       </>
     ),
   },
