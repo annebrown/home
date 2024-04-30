@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     thingy: '/docs/category/digital-media',
     description: (
       <>
-        Shared digital media, including images, templates, scripts, code snippets, logos, ... 
+        Global digital media, including images, templates, scripts, code snippets, logos, ... 
       </>
     ),
   },
