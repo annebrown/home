@@ -45,11 +45,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo-ab.svg',
     navbar: {
       title: 'browndomain.com',
       logo: {
-        alt: 'browndomain.com Logo',
+        alt: 'browndomain.com Logo -green sail over a white sail, white boat',
         src: 'img/favicon-bd.png',
       },
       items: [
@@ -106,14 +106,6 @@ const config: Config = {
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/annebrown',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/annebrown',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/annebrowndomain',
             },
           ],
         },
