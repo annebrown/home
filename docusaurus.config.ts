@@ -60,20 +60,8 @@ const config: Config = {
           label: 'Home',
           href: '/docs/intro',
         },
-         {
-          type: 'docSidebar',
-          sidebarId: 'introSidebar',
-          position: 'right',
-          label: 'Digital Media',
-          href: '/docs/category/digital-media',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'introSidebar',
-          position: 'right',
-          label: 'Ref',
-          href: '/docs/category/ref',
-        },
+         
+      
         //{
         //  type: 'docSidebar',
         //  sidebarId: 'introSidebar',
@@ -95,8 +83,12 @@ const config: Config = {
           title: 'home',
           items: [
             {
-              label: 'Digital Media',
-              to: '/docs/intro',
+              label: 'Browndomain.com',
+              href: 'https://www.browndomain.com',
+            },
+            {
+              label: 'annebrown.ca',
+              href: 'https://www.annebrown.ca',
             },
           ],
         },
