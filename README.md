@@ -1,6 +1,6 @@
 <!-- Basic Github Header: annebrown.ca -->
 <div style="text-align: right">
-<a href="https://www.annebrown.ca"><img src="static/img/logo-ab.svg"  width="20" style="text-decoration: none;"></a>annebrown.ca </div>
+<a href="https://www.annebrown.ca"><img src="static/img/logo-ab.svg"  width="20" style="text-decoration: none;"></a> annebrown.ca </div>
 <div style="text-align: right">
 	<sub><sub><a href="https://github.com/annebrown/?tab=repositories">
     My Repos:</a> <a href="https://github.com/annebrown/home/">/home/</a>README.md
