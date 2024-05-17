@@ -13,7 +13,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Digital Media',
     Svg: require('@site/static/img/digital-media.svg').default,
-    thingy: '/docs/category/digital-media',
+    thingy: 'https://github.com/annebrown/digital-media-priv/',
     description: (
       <>
         Global digital media, including images, templates, scripts, code snippets, logos, ... 
@@ -23,10 +23,10 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Ref',
     Svg: require('@site/static/img/text-books.svg').default,
-    thingy: '/docs/category/ref',
+    thingy: 'https://github.com/annebrown/docs-priv/',
     description: (
       <>
-        Reference docs
+        Docs
       </>
     ),
   },
