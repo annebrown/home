@@ -40,16 +40,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-  {
-    title: 'Dev Env',
-    Svg: require('@site/static/img/dev-env.svg').default,
-    thingy: 'https://github.com/annebrown/dotfiles/',
-    description: (
-      <>
-      {/* Dev Env Config Descr Here */}
-      </>
-    ),
-  },
 ];
 
 function Feature({title, Svg, description, thingy}: FeatureItem) {
