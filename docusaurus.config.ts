@@ -8,15 +8,15 @@ const config: Config = {
   favicon: 'img/favicon-bd.ico',
 
   // Set the production url of your site here
-  url: 'https://home.browndomain.com',
+  url: 'https://www.browndomain.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'annebrown', // Usually your GitHub org/user name.
-  projectName: 'home', // Usually your repo name.
+ // organizationName: 'annebrown', // Usually your GitHub org/user name.
+ // projectName: 'home', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -45,11 +45,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/logo-ab.svg',
+    image: 'img/logo-bd.svg',
     navbar: {
       title: 'browndomain.com',
       logo: {
-        alt: 'browndomain.com Logo -green sail over a white sail, white boat',
+        alt: 'browndomain.com Logo -green sail over a white sail, black boat.  Initials on sail: BD',
         src: 'img/favicon-bd.png',
       },
       items: [
@@ -62,18 +62,18 @@ const config: Config = {
         },
          
       
-        //{
-        //  type: 'docSidebar',
-        //  sidebarId: 'introSidebar',
-       //   position: 'right',
-       //  label: 'annebrown.ca',
-        //  href: 'https://annebrown.ca',
-       // },
-        //{
-        //  href: 'https://github.com/annebrown/home',
-        //  label: 'GitHub',
-        //  position: 'right',
-       // },
+        {
+         type: 'docSidebar',
+         sidebarId: 'introSidebar',
+         position: 'right',
+        label: 'annebrown.ca',
+         href: 'https://www.annebrown.ca',
+       },
+        {
+         href: 'https://github.com/annebrown/templates-priv/',
+         label: 'Templates',
+         position: 'right',
+       },
       ],
     },
     footer: {
