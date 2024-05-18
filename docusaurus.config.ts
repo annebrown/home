@@ -97,7 +97,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/annebrown/home.git',
+              href: 'https://github.com/annebrown/',
             },
             {
               label: 'Stack Overflow',
