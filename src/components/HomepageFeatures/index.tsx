@@ -13,10 +13,10 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Digital Media',
     Svg: require('@site/static/img/digital-media.svg').default,
-    thingy: 'https://github.com/annebrown/digital-media-priv/',
+    thingy: 'https://github.com/annebrown/home/',
     description: (
       <>
-        Global digital media, including images, templates, scripts, code snippets, logos, ... 
+        Web Source
       </>
     ),
   },
@@ -31,9 +31,9 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Cheatsheets',
+    title: 'Dev Env',
     Svg: require('@site/static/img/W3Schools_logo.svg').default,
-    thingy: 'https://cheatsheets.w3spaces.com/',
+    thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
       My Cheatsheets on W3S
