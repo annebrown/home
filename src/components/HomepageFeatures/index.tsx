@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://github.com/annebrown/home/',
     description: (
       <>
-        Web Source
+        Source
       </>
     ),
   },
