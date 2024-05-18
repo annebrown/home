@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Dev Env',
-    Svg: require('@site/static/img/bash.png').default,
+    Svg: require('@site/static/img/bash.svg').default,
     thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
