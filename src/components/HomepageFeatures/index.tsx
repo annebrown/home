@@ -11,7 +11,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Digital Media',
+    title: 'Web Source',
     Svg: require('@site/static/img/digital-media.svg').default,
     thingy: 'https://github.com/annebrown/home/',
     description: (
@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
-      My Cheatsheets on W3S
+      Dev Env
       </>
     ),
   },
