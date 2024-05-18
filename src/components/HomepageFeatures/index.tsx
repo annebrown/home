@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Dev Evn',
-    Svg: require('@site/static/img/dev-eng.svg').default,
+    Svg: require('@site/static/img/dev-env.svg').default,
     thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
