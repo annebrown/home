@@ -96,6 +96,10 @@ const config: Config = {
           title: 'Community',
           items: [
             {
+              label: 'GitHub',
+              href: 'https://github.com/annebrown/home.git',
+            },
+            {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/annebrown',
             },
@@ -106,9 +110,10 @@ const config: Config = {
           items: 
           [
             {
-              label: 'GitHub',
-              href: 'https://github.com/annebrown/home.git',
+              label: 'My Cheatsheets on W3S',
+              href: ' https://cheatsheets.w3spaces.com/',
             },
+           
           ],
         },
       ],
