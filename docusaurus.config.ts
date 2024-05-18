@@ -111,7 +111,7 @@ const config: Config = {
           [
             {
               label: 'My Cheatsheets on W3S',
-              href: ' https://cheatsheets.w3spaces.com/',
+              href: 'https://cheatsheets.w3spaces.com/',
             },
            
           ],
