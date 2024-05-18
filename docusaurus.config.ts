@@ -89,7 +89,7 @@ const config: Config = {
             },
             {
               label: 'annebrown.ca',
-              img: '/static/img/logo-ab.svg'
+              img: '/static/img/logo-ab.svg',
               href: 'https://www.annebrown.ca',
             },
           ],
