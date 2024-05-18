@@ -84,10 +84,12 @@ const config: Config = {
           items: [
             {
               label: 'Browndomain.com',
+              img: '/static/img/logo.svg'
               href: 'https://www.browndomain.com',
             },
             {
               label: 'annebrown.ca',
+              img: '/static/img/logo-ab.svg'
               href: 'https://www.annebrown.ca',
             },
           ],
