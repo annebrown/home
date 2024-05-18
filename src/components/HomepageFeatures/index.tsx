@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Source',
-    Svg: require('@site/static/img/digital-media.svg').default,
+    Svg: require('@site/static/img/source.svg').default,
     thingy: 'https://github.com/annebrown/home/',
     description: (
       <>
