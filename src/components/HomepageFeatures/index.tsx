@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Ref',
-    Svg: require('@site/static/img/text-books.svg').default,
+    Svg: require('@site/static/img/black-book.svg').default,
     thingy: 'https://github.com/annebrown/docs-priv/',
     description: (
       <>
