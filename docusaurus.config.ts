@@ -84,7 +84,7 @@ const config: Config = {
           items: [
             {
               label: 'Browndomain.com',
-              img: '/static/img/logo.svg'
+              img: '/static/img/logo.svg',
               href: 'https://www.browndomain.com',
             },
             {
