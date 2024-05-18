@@ -80,7 +80,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'home',
+          title: 'Home',
           items: [
             {
               label: 'Browndomain.com',
