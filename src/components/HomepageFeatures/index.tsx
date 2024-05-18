@@ -21,12 +21,22 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: 'Dev Evn',
+    Svg: require('@site/static/img/dev-eng.svg').default,
+    thingy: 'https://github.com/annebrown/dotfiles/',
+    description: (
+      <>
+      {/* Descr Here */}
+      </>
+    )
+  },
+  {
     title: 'Ref',
     Svg: require('@site/static/img/docs.svg').default,
     thingy: 'https://github.com/annebrown/docs-priv/',
     description: (
       <>
-        {/* Docs */}
+        {/* Docs Descr Here */}
       </>
     ),
   },
@@ -36,7 +46,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
-      {/* Dev Env */}
+      {/* Dev Env Config Descr Here */}
       </>
     ),
   },
