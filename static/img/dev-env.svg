@@ -36,7 +36,7 @@
      inkscape:window-x="34"
      inkscape:window-y="67"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer5" />
+     inkscape:current-layer="g1" />
   <g
      inkscape:groupmode="layer"
      id="layer5"
@@ -104,13 +104,13 @@
        y="211.56212" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
-       x="38.714054"
-       y="563.91956"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#67b367;fill-opacity:1;stroke:none"
+       x="45.672054"
+       y="558.35315"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         x="38.714054"
-         y="563.91956">anne@adev:~/projects $ </tspan></text>
+         x="45.672054"
+         y="558.35315">anne@adev:~/projects $ </tspan></text>
   </g>
 </svg>
