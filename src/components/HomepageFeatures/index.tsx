@@ -11,12 +11,12 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Web Source',
+    title: 'Source',
     Svg: require('@site/static/img/digital-media.svg').default,
     thingy: 'https://github.com/annebrown/home/',
     description: (
       <>
-        Source
+        {/* Source */}
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://github.com/annebrown/docs-priv/',
     description: (
       <>
-        Docs
+        {/* Docs */}
       </>
     ),
   },
@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
     thingy: 'https://github.com/annebrown/dotfiles/',
     description: (
       <>
-      Dev Env
+      {/* Dev Env */}
       </>
     ),
   },
