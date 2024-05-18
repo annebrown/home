@@ -58,7 +58,7 @@ const config: Config = {
           sidebarId: 'introSidebar',
           position: 'right',
           label: 'Home',
-          href: '/docs/intro',
+          href: 'https://browndomain.com',
         },
          
       
