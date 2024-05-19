@@ -68,7 +68,7 @@ const config: Config = {
         {
          position: 'right',
         label: 'Workflows',
-         to: 'https://github.com/annebrown/docs-priv/workflows/new-dev-env/',
+         to: 'https://github.com/annebrown/docs-priv/workflows/',
        },
         {
          to: 'https://github.com/annebrown/templates-priv/',
