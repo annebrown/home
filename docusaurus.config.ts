@@ -53,24 +53,25 @@ const config: Config = {
         src: 'img/favicon-bd.png',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'introSidebar',
+        //   position: 'right',
+        //   label: 'Home',
+        //   to: 'https://www.browndomain.com',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'introSidebar',
           position: 'right',
-          label: 'Home',
-          href: 'https://www.browndomain.com',
-        },
-         
-      
+         label: 'Angular WebApp',
+          to: 'https://www.annebrown.ca',
+        }, 
         {
-         type: 'docSidebar',
-         sidebarId: 'introSidebar',
          position: 'right',
-        label: 'Angular WebApp',
-         href: 'https://www.annebrown.ca',
+        label: 'Workflows',
+         to: 'https://github.com/annebrown/docs-priv/workflows/new-dev-env/',
        },
         {
-         href: 'https://github.com/annebrown/templates-priv/',
+         to: 'https://github.com/annebrown/templates-priv/',
          label: 'Templates',
          position: 'right',
        },
@@ -85,12 +86,12 @@ const config: Config = {
             {
               label: 'Browndomain.com',
               img: '/static/img/logo.svg',
-              href: 'https://www.browndomain.com',
+              to: 'https://www.browndomain.com',
             },
             {
               label: 'annebrown.ca',
               img: '/static/img/logo-ab.svg',
-              href: 'https://www.annebrown.ca',
+              to: 'https://www.annebrown.ca',
             },
           ],
         },
@@ -99,11 +100,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/annebrown/',
+              to: 'https://github.com/annebrown/',
             },
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/annebrown',
+              to: 'https://stackoverflow.com/questions/tagged/annebrown',
             },
           ],
         },
@@ -113,7 +114,7 @@ const config: Config = {
           [
             {
               label: 'My Cheatsheets on W3S',
-              href: 'https://cheatsheets.w3spaces.com/',
+              to: 'https://cheatsheets.w3spaces.com/',
             },
            
           ],
