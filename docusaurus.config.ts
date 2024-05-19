@@ -66,7 +66,7 @@ const config: Config = {
          type: 'docSidebar',
          sidebarId: 'introSidebar',
          position: 'right',
-        label: 'annebrown.ca',
+        label: 'Angular WebApp',
          href: 'https://www.annebrown.ca',
        },
         {
