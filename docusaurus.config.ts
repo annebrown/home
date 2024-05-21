@@ -50,7 +50,7 @@ const config: Config = {
       title: 'browndomain.com',
       logo: {
         alt: 'browndomain.com Logo -green sail over a white sail, black boat.  Initials on sail: BD',
-        src: 'img/favicon-bd.png',
+        src: '/static/img/favicon-bd.png',
       },
       items: [
         // {
