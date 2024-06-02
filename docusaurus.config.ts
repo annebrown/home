@@ -45,7 +45,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/logo-bd.svg',
+    image: '/src/img/logo-bd.svg',
     navbar: {
       title: 'browndomain.com',
       logo: {
@@ -84,7 +84,7 @@ const config: Config = {
           title: 'Home',
           items: [
             {
-              label: 'Browndomain.com',
+              label: 'browndomain.com',
               img: '/static/img/logo.svg',
               to: 'https://www.browndomain.com',
             },
@@ -93,6 +93,11 @@ const config: Config = {
               img: '/static/img/logo-ab.svg',
               to: 'https://www.annebrown.ca',
             },
+            {
+              label: 'My Cheatsheets on W3S',
+              to: 'https://cheatsheets.w3spaces.com/',
+            },
+           
           ],
         },
         {
@@ -106,15 +111,19 @@ const config: Config = {
               label: 'Stack Overflow',
               to: 'https://stackoverflow.com/questions/tagged/annebrown',
             },
+            {
+              label: 'Awesome Lists',
+              to: 'https://github.com/sindresorhus/awesome#contents',
+            },
           ],
         },
         {
-          title: 'More',
+          title: 'Tooling',
           items: 
           [
             {
-              label: 'My Cheatsheets on W3S',
-              to: 'https://cheatsheets.w3spaces.com/',
+              label: 'Hyper Resources',
+              to: 'https://github.com/bnb/awesome-hyper?tab=readme-ov-file#resources',
             },
            
           ],
